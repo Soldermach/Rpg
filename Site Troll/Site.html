@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG Teste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="ficha">
+            <h2>Ficha de Personagem</h2>
+            <textarea>
+
+            </textarea>
+        </div>
+        <div class="dados">
+            <h1>Tabela de dados</h1>
+            <img src="img/tabela.png" alt="Tabela de dados">
+            <h2>Rolar Dados</h2>
+            <label for="numRolls">Quantas dados:</label>
+            <input type="number" id="numRolls" value="1" min="1">
+            <button onclick="rollDice()">Roll</button>
+            <div id="results"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
